@@ -87,4 +87,51 @@ Stoneskin:        Ignore 5 points of damage per attack. Lasts clvl*10 minutes, o
 Stonecloth:       The fabric so enchanted cannot easily be pierced or cut. An enchanted cloak grants an additional 1 AC against blades or piercing weapons,
                   and reduces damage taken from them by 1 if the attack spread is less than 4.
 
+
+---------------
+Cleric Spells
+---------------
+
+------------ Level 0 (Orisons):
+Create Water:     Creates 2*clvl gallons of pure water.
+Guidance:         +1 on attack roll, saving throw, or skill check. Lasts for 1 minute, or until discharged.
+Light:            Object shines like a torch for clvl*10 minutes.
+Purify:           Purifies clvl cubic feet of food or water.
+Resistance:       Subject gains +1 of saving throws for 1 clvl minutes.
+Virtue:           Subject gains clvl temporary hp for 1 minute.
+
+------------ Level 1:
+Bless:            Allies gain +1 on attack rolls and checks against fear for clvl minutes
+Bless Water:      Makes water into holy water. Can bless clvl gallons.
+Cure Light:       Cures clvl + d8 damage (max at 1d8 + 5)
+Divine Favor:     You gain ceil(clvl/3) on attack and damage rolls for 1 minute (6 rounds).
+Magic Stones:     Three stones gain +1 on attack, deal 1d6+1 damage. Last till discharged, or long rest.
+Shield of Faith:  Aura grants +2 AC bonus for clvl minutes to whole party (within 20 ft)
+
+------------ Level 2:
+Aid:              +1 on attack rolls and saves against fear, 1d8+clvl temporary hp.
+Cure Moderate:    Cures 2d8+clvl damage (max at 2d8+10)
+Delay Poison:     Stops poison from harming subject for clvl hours.
+Gentle Repose:    Preserves one corpse (if an ally dies, they can only be resurrected for 12 hours unless they're preserved in this way)
+Remove Paralysis: Frees one or more creatures from a paralysis or snare effect.
+Lesser Restore:   Subject gains d4 hp and d4 temp hp, and then 1 hp and 1 temp hp per round for clvl rounds.
+
+------------ Level 3:
+Create Potables:  Feeds clvl * 3 humans a solid meal.
+Cure Serious:     Cures 3d8+clvl damage (max at 3d8+15)
+Prayer:           Allies get a +1 bonus and enemies get a -1 penalty on most rolls for clvl rounds.
+Remove Disease:   Cures all diseases affecting subject
+Searing Light:    Ray deals ceil(clvl/2)d8 damage, or (clvl)d8 against undead.
+Speak With Dead:  Corpse answers ceil(clvl/2) questions. Lasts for clvl minutes.
+
+------------ Level 4:
+Cure Critical:    Cures 4d8+clvl damage (max at 4d8 + 20)
+Discern Lies:     Reveals deliberate falsehoods for clvl rounds (until concentration ends)
+Freedom to Move:  Subject moves normally despite impediments for clvl*10 minutes.
+Neut. Poison:     Immunizes subject against poison for clvl*10 minutes, detoxifies any venom in or on subject.
+Restoration:      Subject gains 3d4 hp and 2d4 temp hp, and then 2 hp and 2 temp hp per round for clvl rounds
+Tongues:          Speak and understand any language for clvl*10 minutes.
+
+
+
                   

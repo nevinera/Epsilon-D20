@@ -57,6 +57,8 @@ Add STRmod to melee damage rolls (x2 for 2h weapons).
 Trained characters may wield two light weapons at a time, and attack with both. They take a -1 on the main hand weapon,
 and a -2 on the offhand weapon; the second attack during a turn has an additional -2 penalty if the first attack missed.
 
+Temporary hp are health point buffers - if you have 3 temp hp, and take a hit for 5, you lose the temporaries, and only ake 2 damage.
+Temporary hp do not stack; if you gain 3 thp and then gain 5thp, you have 5.
 
 ----------------
 3.  Tricks
