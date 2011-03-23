@@ -133,5 +133,55 @@ Restoration:      Subject gains 3d4 hp and 2d4 temp hp, and then 2 hp and 2 temp
 Tongues:          Speak and understand any language for clvl*10 minutes.
 
 
+-----------------
+Druid Spells
+-----------------
+
+------------- Level 0:
+Create Water:     Creates 2*clvl gallons of pure water.
+Detect Life:      Detects things that are living within 60' for clvl minutes (impressions of physical size, no identification)
+Detect Poison:    Detects poison in or on one creature or object.
+Mending:          Make minor repairs on an object
+Resistance:       Subject gains +1 on saving throws for 1 minute
+Move Silently:    Subject can move quietly with great skill (+ clvl+2)
+
+------------ Level 1:
+Enlivening Aura:  On each of your turns, all allies within 20' gain 1 temporary hp, and regain 1 hp if they roll (d20 + clvl + MNDmod) > 12. Lasts (3+clvl) rounds.
+Faerie Fire:      Outlines subject with light for clvl minutes. Cancels blur, invisibility, etc. Reduces AC by 1 against missile weapons.
+Goodberries:      2d4 berries, which each cure 1hp (max 8 berries per 24 hours)
+Obscuring Mist:   Fog surrounds you, providing concealment for clvl minutes (roughly 20' radius)
+Produce Flame:    clvl + d6 damage, touch or thrown. Touch uses melee attack with +4, thrown uses magic attack, and must travel at least 5 feet.
+Speak w/ Animals: You can communicate with animals for clvl minutes.
+
+------------ Level 2:
+Barkskin:         Grants caster +2 AC for the rest of the day.
+Gust of Wind:     Blows out lights, blows away small objects, or knocks small creatures prone. Larger creatures roll DEX+Athl, or lose next turn. (Targeted)
+Heat Metal:       Makes metal so hot it damages those who touch it (1d4 per round, most will drop).
+Summon Swarm:     Summons a swarm of bats, rats, or spiders for concentration period plus two rounds. (generally, creatures attacked must roll Will+3 or lose turns)
+Tree Shape:       You look exactly like a tree for up to clvl hours. Close inspection is d20+MNT+clvl against Will+Subt+clvl+2
+Warp Wood:        Bends wood within 20' radius.  [Swap with Stone Shape for dwarves.]
+Empower Beast:    Subject gains +2 to attack, +1 to damage, +1 to initiative, +1 speed, 
+                  and is aware that those bonuses are from you. Can be cast on your spirit beast. Lasts clvl minutes (usually till end of encounter).
+
+------------ Level 3:
+Call Lightning:   Calls down 3d6 damage lighting bolts from the sky once per round for clvl rounds. Tend to hit more heavily armored targets.
+Energy Protect:   Absorb 2*clvl damage from a specific type of energy every round for clvl minutes.
+Speak w/ Plants:  You can talk to normal plants and plant creatures for clvl minutes. Note, plants are aware of events near them, but can't think much.
+Spike Growth:     Spikes coat the ground in a configurable 100 sq ft area. Creatures in area take d4 damage per 5' of movement, and may be slowed (check feet)
+Stone Shape:      Sculpts stone into any shape within 8 feet.  [Swap with Warp wood for dwarves]
+Water Breathing:  Subjects can breath under water for clvl*2 man-hours (divided among any number of targets)
+Enrage Beast:     Target non-intelligent animal becomes uncontrollably angry, and attacks anything near it randomly. 
+                  If cast on an intelligent target, it will get a bit testy. Lasts clvl minutes.
+
+------------ Level 4:
+Air Walk:         Subject can walk on air for clvl*10 minutes - Can gain or lose elevation at a 20% grade.
+Ice Storm:        Hail does 5d6 damage to *all* targets in a cylinder from 20-40 feet across.
+Reincarnate:      Brings dead subject back in a random body. Heh.
+Repel Vermin:     Insects, spiders, and other vermin stay 10' away for clvl hours
+Entangling Roots: Target is well-bound by tree roots rising from the ground, and can no longer move. 
+                  Roots last 2d4 rounds, but can be hacked clear in 2 rounds of focused attack with a decent edged weapon (5 rounds with a knife)
+Soothe Beast:     The targeted non-intelligent animal loses interest in killing or eating anybody, and feels somewhat sleepy.
+                  If cast on an intelligent target, it will become lazier, and tired. Lasts clvl minutes.
+
 
                   
