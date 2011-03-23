@@ -47,6 +47,7 @@ Ghost Sound:      Figment sounds for 1 round/level
 Light:            Object shines like a torch for 10 min/lvl
 Mage Hand:        5-pound telekinesis. Lasts until concentration ends.
 Prestidigitation: Perform minor tricks for 1 hour (coin tricks, card tricks, etc).
+Magic Dart:       1 damage to each of clvl targets
 
 
 --------- Level 1:
@@ -58,7 +59,7 @@ Sleep:            Puts (clvl + 3) HD of creatures into magical slumber for 1 min
 Shocking Grasp:   Touch delivers (clvl)d6 electricity damage (max 5d6)
 
 --------- Level 2:
-Acid Arrow:       Ranged touch attack; 2d4 damage each round, lasts ceil(clvl/3) rounds.
+Acid Arrow:       2d4 damage each round, lasts [ceil(clvl/3) + 1] rounds.
 Flaming Sphere:   Creates a foot-wide ball of clinging fire. Does 2d6 damage, and 1d6 damage each round thereafter. Lasts clvl rounds.
 Invisibility:     Subject is invisible for clvl minutes, until it attacks.
 Inaudible:        Subject can produce no sound directly for clvl minutes, until it attacks.
@@ -72,7 +73,7 @@ Clairvoyance:     See at a distance for clvl minutes. Can target any location yo
 Dispel Magic:     Cancel a magical spell or effect. Break an attunement or charm. Roll DEXmod+Study to break a fast-moving spell (fireball, eg).
 Firestorm:        (clvl)d6 damage to a 20ft radius. 1d4 damage per round to all affected, save ends.
 Fly:              Subject flies at speed of 60ft/round (fast run) for clvl minutes.
-Lightning Bolt:   (clvl)d6 damage to a target, half damage to any creature in conducting contact with it.
+Lightning Bolt:   (clvl)d6 damage to a target, half damage to *any* creature in conducting contact with it.
 Vampiric Touch:   Touch deals ceil(clvl/2)d6 damage, caster gains damage as temporary hp lasting 1 hour.
 Heat Enchantment: The object (usually part of a weapon) so enchanted deals an extra 1d4 damage on hit, and glows slightly reddish.
                   It cannot be safely touched by any except the attuned wielder, and produces no heat while not being wielded by him/her.
@@ -95,18 +96,19 @@ Cleric Spells
 ------------ Level 0 (Orisons):
 Create Water:     Creates 2*clvl gallons of pure water.
 Guidance:         +1 on attack roll, saving throw, or skill check. Lasts for 1 minute, or until discharged.
-Light:            Object shines like a torch for clvl*10 minutes.
 Purify:           Purifies clvl cubic feet of food or water.
 Resistance:       Subject gains +1 of saving throws for 1 clvl minutes.
 Virtue:           Subject gains clvl temporary hp for 1 minute.
+Ray of Light:     Target takes a -2 penalty to attacks until the cleric's next turn. If undead, also deals d4 damage. Illumination lasts clvl seconds.
 
 ------------ Level 1:
 Bless:            Allies gain +1 on attack rolls and checks against fear for clvl minutes
 Bless Water:      Makes water into holy water. Can bless clvl gallons.
 Cure Light:       Cures clvl + d8 damage (max at 1d8 + 5)
 Divine Favor:     You gain ceil(clvl/3) on attack and damage rolls for 1 minute (6 rounds).
-Magic Stones:     Three stones gain +1 on attack, deal 1d6+1 damage. Last till discharged, or long rest.
 Shield of Faith:  Aura grants +2 AC bonus for clvl minutes to whole party (within 20 ft)
+Flash Stones:     Enchants 2 stones to explode with a *bright* flash when struck (thrown at ground, usually), 
+                  blinding everyone looking toward them for 1d4 seconds. 
 
 ------------ Level 2:
 Aid:              +1 on attack rolls and saves against fear, 1d8+clvl temporary hp.
@@ -144,6 +146,7 @@ Detect Poison:    Detects poison in or on one creature or object.
 Mending:          Make minor repairs on an object
 Resistance:       Subject gains +1 on saving throws for 1 minute
 Move Silently:    Subject can move quietly with great skill (+ clvl+2)
+Magic Stones:     Three stones gain +1 on attack, deal 1d4+1 damage. Last till discharged, or long rest.
 
 ------------ Level 1:
 Enlivening Aura:  On each of your turns, all allies within 20' gain 1 temporary hp, and regain 1 hp if they roll (d20 + clvl + MNDmod) > 12. Lasts (3+clvl) rounds.
