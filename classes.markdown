@@ -39,13 +39,13 @@ Druid
   * Resummoning takes ~ 5min, and costs 2hp.
   * Faintly ethereal, VERY good at remaining hidden in natural settings.
 
-    STR: `Druid's MND - 4`  
-    DEX: `Druid's MND - 2`  
-    MND: `4`  
-    Subt: `2 + floor(clvl/3)`  
-    Athl: `1 + floor(clvl/3)`  
-    HP:   `6 + clvl*d4`  
-    AC:   `10 + clvl + MNDmod + 2`  
+    |STR:  |Master MND - 4          |
+    |DEX:  |Master MND - 2          |  
+    |MND:  |4                       |
+    |Subt: |2 + floor(clvl/3)       |
+    |Athl: |1 + floor(clvl/3)       |
+    |HP:   |6 + clvl*d4             |
+    |AC:   |10 + clvl + MNDmod + 2  |
 
 
 Mage
