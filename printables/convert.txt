@@ -1,0 +1,4 @@
+For reference, the command I'm using to produce pdf from markdown:
+(requires markdown and htmldoc, both brew-installable)
+
+markdown core.markdown | htmldoc --cont --headfootsize 8.0 --format pdf14 --fontsize 10 --footer 1 - > printables/core.pdf
