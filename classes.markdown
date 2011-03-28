@@ -22,8 +22,9 @@ Paladin
 * Can use any armor, any shield, most one-handed weapons (prefers blunts).
 * +2 Athletics skill, +2 Social skill
 * +1 to Will (MND defense). +1 to Fortitude as well, starting at level 5.
-* Can 'defend' another character; reduces your AC by DEXmod, Improves their AC by your DEXmod. If an attack misses the character you are defending with a spread of at least DEXmod, take an opportunity attack against the perpetrator (only once per round).
+* Can 'defend' another character; reduces your AC by `DEXmod + 2`, Improves their AC by `DEXmod + 3`. If an attack misses the character you are defending with a spread of at least `DEXmod + 3`, take an opportunity attack against the perpetrator (only once per round).
 * Can use cleric spells like a cleric 3 levels lower. (At level 3, he gets one Rank 0 spell). The paladin gets no familiarity bonuses, and cannot empower or widen spells.
+* When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).
 
 Druid
 --------------
@@ -62,6 +63,6 @@ Cleric
 
 * Medium armor, light shields, light and blunt weapons only.
 * +2 Social, +2 Studies, +1 Will, +1 Fortitude
-* Can attempt to "turn" undead - roll `MND + Stud + clvl` against Will+mlvl. On success, the target flees for 2+d4 turns. On success with spread > 4, the target de-animates, with various effects. Costs 1hp, can target up to clvl different targets at once.
-* When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).
+* Can attempt to "turn" undead - roll `MND + Stud + clvl` against `Will + mlvl`. On success, the target flees for 2+d4 turns. On success with spread > 4, the target de-animates, with various effects. Costs 1hp, can target up to clvl different targets at once.
+* When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 2 (but not to zero).
 
