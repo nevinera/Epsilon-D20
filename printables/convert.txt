@@ -1,4 +1,3 @@
 For reference, the command I'm using to produce pdf from markdown:
-(requires kramdown gem and htmldoc [brew install])
 
-kramdown classes.markdown | htmldoc --cont --headfootsize 8.0 --format pdf14 --fontsize 10 --footer 1 - > printables/classes.pdf
+markdown classes.markdown | htmldoc --cont --headfootsize 8.0 --format pdf14 --fontsize 10 --footer 1 - > printables/classes.pdf
