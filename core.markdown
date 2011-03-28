@@ -35,7 +35,7 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 Standard attacks compare `Attack_bonus + d20` against the targets AC (magic attacks use `Magic_bonus + d20 + caster_level`).
 The base attack bonus is STRmod for melee weapons, DEXmod for ranged weapons, and MNDmod for magic attacks. (Trained characters can use DEXmod for melee with light weapons if they prefer).
 
-A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 or a spread of 5+ (spread is `roll + mods - AC`) grants an extra attack with a cumulative -3 penalty on the attack roll. When wielding a heavy or two-handed weapon, this extra swing cannot be against the same target. Add STRmod to melee damage rolls (x2 for 2h weapons).
+A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 or a spread of 5+ (spread is `roll + mods - AC`) grants an extra attack with a cumulative -3 penalty on the attack roll. Extra attacks in one round may not exceed `max(STRmod, DEXmod)`. When wielding a heavy or two-handed weapon, this extra swing cannot be against the same target. Add STRmod to melee damage rolls (x2 for 2h weapons).
 
 Trained characters may wield two light weapons at a time, and attack with both. They take a -1 on the main hand weapon,
 and a -2 on the offhand weapon; the second attack during a turn has an additional -2 penalty if the first attack missed.
@@ -47,8 +47,7 @@ Temporary hp are health point buffers - if you have 3 temp hp, and take a hit fo
 
 Combat is descriptive rather than tactical. Trying to do something fancy is reasonable - the DM will come up with modifiers to be applied (and will explain them before you commit). Examples: "Run past X, take a swing while running", "Cast magic missile past an ally", "Run at someone full-tilt, and smash into them shield-first."
 
-These are called 'tricks' - write them down when you commit them, so we'll know the modifiers later. They may involve a skill check to perform an impressive stunt, or allowing an attack to hit you (reducing your ac to just Armor-mod) in order to land a bigger attack. If you use a trick a few times, it may be available to 'learn' when you next have the opportunity (see 'Leveling up'); learning a trick
-reduces its penalty or improves its outcome, because you are practiced at it.
+These are called 'tricks' - write them down when you commit them, so we'll know the modifiers later. They may involve a skill check to perform an impressive stunt, or allowing an attack to hit you (reducing your ac to just Armor-mod) in order to land a bigger attack. If you use a trick a few times, it may be available to 'learn' when you next have the opportunity (see 'Leveling up'); learning a trick reduces its penalty or improves its outcome, because you are practiced at it.
 
 4.  Magic
 ---------------
