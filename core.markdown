@@ -15,8 +15,9 @@ If the total matches or exceeds the check's DC, the check was passed.
 
 You can have more specific skills, like lockpicking, or dancing, or bartering, but they have to counterbalanced by specific disadvantages (of appropriate impact), like 'afraid of heights', 'argumentative', 'slow to react'. The DM will help you come up with quirks of your character, and how they might impact play. Every character should have a few; they help shape the character's pesonality. These can develop during play! If your paladin gets attacked by people he trusts too often, he might become less trusting and more wary, increasing his initiative by 1 and hurting his social interactions.
 
-* Defenses are `clvl + Statmod`, and they are respectively: Fortitude (Fort), Reflexes (Refl), and Will. Testing a defense generally compares `d20 + mlvl + attack_mod` against `10 + clvl + defense`
+* Defenses are `clvl + Statmod`, and they are respectively: Fortitude (Fort), Reflexes (Refl), and Will.
 * Armor Class (AC) is `10 + Refl + gear` - See the equipment list for that last number.
+* Magic Class (MC) is `10 + Will + clvl`
 * HP = `STR + 2*clvl + d4(clvl)`
 * The initiative modifier is generally DEXmod, though a host of things could modify it (armor, race, quirks, surprise, etc).
 
@@ -31,7 +32,7 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 2.  Combat
 ------------------
 
-Standard attacks compare `Attack_bonus + d20` against the targets AC.
+Standard attacks compare `Attack_bonus + d20` against the targets AC (magic attacks use `Magic_bonus + d20 + caster_level`).
 The base attack bonus is STRmod for melee weapons, DEXmod for ranged weapons, and MNDmod for magic attacks. (Trained characters can use DEXmod for melee with light weapons if they prefer).
 
 A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 or a spread of 5+ (spread is `roll + mods - AC`) grants an extra attack with a cumulative -3 penalty on the attack roll. When wielding a heavy or two-handed weapon, this extra swing cannot be against the same target. Add STRmod to melee damage rolls (x2 for 2h weapons).
