@@ -172,6 +172,7 @@ Druid Spells
 * Tree Shape:       You look exactly like a tree for up to clvl hours. Close inspection is d20+MNT+clvl against Will+Subt+clvl+2
 * Warp Wood:        Bends wood within 20' radius.  (Swap with Stone Shape for dwarves.)
 * Empower Beast:    Subject gains +2 to attack, +1 to damage, +1 to initiative, +1 speed, and is aware that those bonuses are from you. Can be cast on your spirit beast. Lasts clvl minutes (usually till end of encounter).
+* Flourish:         Subject gains 1d4 hp, and 1 thp and 1hp every turn for their next MNDmod turns (2 hp if less than half health).
 
 ###Level 3:
 
@@ -182,6 +183,7 @@ Druid Spells
 * Stone Shape:      Sculpts stone into any shape within 8 feet.  (Swap with Warp wood for dwarves)
 * Water Breathing:  Subjects can breath under water for clvl*2 man-hours (divided among any number of targets)
 * Enrage Beast:     Target non-intelligent animal becomes uncontrollably angry, and attacks anything near it randomly. If cast on an intelligent target, it will get a bit testy. Lasts clvl minutes.
+* Preserve:         Subject gains `2d6 + 2` temporary hit points and glows faintly.
 
 ###Level 4:
 
@@ -191,6 +193,7 @@ Druid Spells
 * Repel Vermin:     Insects, spiders, and other vermin stay 10' away for clvl hours
 * Entangling Roots: Target is well-bound by tree roots rising from the ground, and can no longer move. Roots last 2d4 rounds, but can be hacked clear in 2 rounds of focused attack with a decent edged weapon (5 rounds with a knife)
 * Soothe Beast:     The targeted non-intelligent animal loses interest in killing or eating anybody, and feels somewhat sleepy. If cast on an intelligent target, it will become lazier, and tired. Lasts clvl minutes.
+* Rejuvenation:     The subject regains 2d4 hp every turn for MNDmod turns
 
 
                   
