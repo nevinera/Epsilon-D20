@@ -169,7 +169,7 @@ Druid Spells
 * Gust of Wind:     Blows out lights, blows away small objects, or knocks small creatures prone. Larger creatures roll DEX+Athl, or lose next turn. (Targeted)
 * Heat Metal:       Makes metal so hot it damages those who touch it (1d4 per round, most will drop).
 * Summon Swarm:     Summons a swarm of bats, rats, or spiders for concentration period plus two rounds. (generally, creatures attacked must roll Will+3 or lose turns)
-* Tree Shape:       You look exactly like a tree for up to clvl hours. Close inspection is d20+MNT+clvl against Will+Subt+clvl+2
+* Tree Shape:       You look exactly like a tree for up to clvl hours. Close inspection is d20+MND+clvl against Will+Subt+clvl+2
 * Warp Wood:        Bends wood within 20' radius.  (Swap with Stone Shape for dwarves.)
 * Empower Beast:    Subject gains +2 to attack, +1 to damage, +1 to initiative, +1 speed, and is aware that those bonuses are from you. Can be cast on your spirit beast. Lasts clvl minutes (usually till end of encounter).
 * Flourish:         Subject gains 1d4 hp, and 1 thp and 1hp every turn for their next MNDmod turns (2 hp if less than half health).
