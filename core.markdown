@@ -81,7 +81,7 @@ On gaining a level:
 * add +1 to a skill class. On even levels, add +1 to two skill classes.
 * add +1 to a stat if the new level is divisible by 3.
 * add +1 to two stats if the new level is divislbe by 6.
-* add 2+d4 to HP (if str goes up, add that also)
+* add 2+d4 to HP (if str went up, add 1 to that)
 * learn a trick if the new level is odd.
 
 
