@@ -22,7 +22,7 @@ Paladin
 * Can use any armor, any shield, most one-handed weapons (prefers blunts).
 * +2 Athletics skill, +2 Social skill
 * +1 to Will (MND defense). +1 to Fortitude as well, starting at level 5.
-* Can 'defend' another character; reduces your AC by `DEXmod + 2`, Improves their AC by `DEXmod + 3`. If an attack misses the character you are defending with a spread of at least `DEXmod + 3`, take an opportunity attack against the perpetrator (only once per round).
+* Other members of the party are 'defended' by the paladin - opponents adjacent to the paladin get -1 to attacks against party members (other than the paladin), and if they successfully hit a member of the paladin's party, the paladin may take an opportunity attack against them (limit one per round).
 * Can use cleric spells like a cleric 3 levels lower. (At level 3, he gets one Rank 0 spell). The paladin gets no familiarity bonuses, and cannot empower or widen spells.
 * When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).
 
