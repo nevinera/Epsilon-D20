@@ -15,7 +15,8 @@ If the total matches or exceeds the check's DC, the check was passed.
 
 You can have more specific skills, like lockpicking, or dancing, or bartering, but they have to counterbalanced by specific disadvantages (of appropriate impact), like 'afraid of heights', 'argumentative', 'slow to react'. The DM will help you come up with quirks of your character, and how they might impact play. Every character should have a few; they help shape the character's pesonality. These can develop during play! If your paladin gets attacked by people he trusts too often, he might become less trusting and more wary, increasing his initiative by 1 and hurting his social interactions.
 
-* Defenses are `clvl + Statmod`, and they are respectively: Fortitude (Fort), Reflexes (Refl), and Will.
+* Defense modifier are `clvl + Statmod`, and they are respectively: Fortitude (Fort), Reflexes (Refl), and Will. (When rolling a save, compare `d20 + defense` against DC)
+* Defenses are `10 + defense_mod`. (When rolling an *attack* against a defense, compare `d20 + attack_bonus` against `10+defense`)
 * Armor Class (AC) is `10 + Refl + gear` - See the equipment list for that last number.
 * Magic Class (MC) is `10 + Will + clvl`
 * HP = `STR + 2*clvl + d4(clvl)`
@@ -27,6 +28,7 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 * Elf:      +1 MND, +1 DEX, +1 Stud
 * Dwarf:    +2 STR, +2 HP
 * Halfling: +2 DEX, -1 STR, +1 Sub, +1 init
+* Half-Elf: +1 DEX or MND, +1 to a skill, +1 to a defense
 
 
 2.  Combat
