@@ -61,7 +61,7 @@ restore 1 point of each stat, so don't dip into that reserve unless it is absolu
 Most spells don't take away any HP unless they succeed - spells that manifest an entity which can miss (fireball, magic missile)
 still take HP even if they miss (and misses still hit *something*).
 
-A caster can learn spells up to `ceil(clvl / 2)`. On level up, he gains/learns one spell of each rank he can cast. Spells cost `rank + 1` hp to cast by default. A caster can choose one spell of each rank except the highest they can use to be particularly familiar with (preferably whichever spell he/she casts most often) - that spell costs half as much (round down).
+A caster can learn spells up to `ceil(clvl / 2)`. On level up, he gains/learns one spell of each rank he can cast. Spells cost `rank + 1` hp to cast by default. A caster can choose one spell of each rank except the highest they can use to be particularly familiar with (preferably whichever spell he/she casts most often) - that spell costs half as much (round down) (So a rank zero spell is free).
 
 ###Modifiers:
   A caster can modify his spells in various ways while casting them. Modifying a spell makes it take longer to cast, and also take more HP.
@@ -81,9 +81,10 @@ Levels are gained at the DM's discretion, generally upon completing some major a
 On gaining a level:
 
 * add +1 to a skill class. On even levels, add +1 to two skill classes.
-* add +1 to a stat if the new level is divisible by 3.
-* add +1 to two stats if the new level is divislbe by 6.
+* add +1 to a stat if the new level is divisible by 3. If the new level is divislbe by 6, add +1 to two stats.
 * add 2+d4 to HP (if str went up, add 1 to that)
 * learn a trick if the new level is odd.
+* learn new spells
+* adjust defenses, attack bonuses
 
 
