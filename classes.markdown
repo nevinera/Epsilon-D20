@@ -11,8 +11,8 @@ Rogue
 --------------
 
 * Light armor only, light weapons only.
-* +3 Subterfuge skill
-* When attacking an enemy that is not aware of them (sneaking up is usually DEX+Sub check), can add Subt skill rank to the damage roll.
+* +4 Subterfuge skill
+* When attacking an enemy that is not aware of them (sneaking up is usually DEX+Sub check), can add `floor(Subt/2)` to the damage roll.
 * Reduced penalty for attacks attempted while moving.
 * Learns a trick every level, instead of just odd ones.
 
