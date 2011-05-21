@@ -17,6 +17,7 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 * Defense modifier are `clvl + Statmod`, and they are respectively: Fortitude (Fort), Reflexes (Refl), and Will. (When rolling a save, compare `d20 + defense` against DC)
 * Defenses are `10 + defense_mod`. (When rolling an *attack* against a defense, compare `d20 + attack_bonus` against `10+defense`)
 * Armor Class (AC) is `10 + Refl + gear` - See the equipment list for that last number.
+* Armor Reduction Range (ARR) is `floor(gear / 2)`
 * Magic Class (MC) is `10 + Will + clvl`
 * HP = `STR + 2*clvl + d4(clvl)`
 * The initiative modifier is generally DEXmod, though a host of things could modify it (armor, race, quirks, surprise, etc).
@@ -35,7 +36,7 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 Standard attacks compare `Attack_bonus + d20` against the targets AC (magic attacks use `Magic_bonus + d20 + caster_level`).
 The base attack bonus is STRmod for melee weapons, DEXmod for ranged weapons, and MNDmod for magic attacks. (Trained characters can use DEXmod for melee with light weapons if they prefer).
 
-A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 or a spread of 5+ (spread is `roll + mods - AC`) grants an extra attack with a cumulative -3 penalty on the attack roll. Extra attacks in one round may not exceed `max(STRmod, DEXmod)`. When wielding a heavy or two-handed weapon, this extra swing cannot be against the same target. Add STRmod to melee damage rolls (x2 for 2h weapons).
+A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 or a spread of 5+ (spread is `roll + mods - AC`) grants an extra attack with a cumulative -3 penalty on the attack roll. Extra attacks in one round may not exceed `max(STRmod, DEXmod)`. When wielding a heavy or two-handed weapon, this extra swing cannot be against the same target. Add STRmod to melee damage rolls (x2 for 2h weapons). Characters take half damage (rounded down) from any attack that hits them with a spread within the Armor Reduction Range (but not from a nat20).
 
 Trained characters may wield two light weapons at a time, and attack with both. They take a -1 on the main hand weapon,
 and a -2 on the offhand weapon; the second attack during a turn has an additional -2 penalty if the first attack missed.
