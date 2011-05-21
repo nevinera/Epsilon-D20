@@ -67,5 +67,6 @@
  * Through ritual (~5m per hp), may draw magic out of a person (including himself), storing it as blood in containers. This blood may be spend in leiu of his own life, but only retains its power for one day. The amount he can keep active is equal to half his own maximum HP.
  * No familiarity bonuses to casting costs.
  * When granted sufficient time, can meditate for ~10 minutes to reduce the cost of a spell by half, rounding down.
+ * Allowed to learn mage spells as well, though only spells below the highest rank he can cast.
 
 
