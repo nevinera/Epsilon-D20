@@ -196,7 +196,7 @@ its income almost entirely from the sale of enchanting services.
 
 ### Level 0:
 
-* See Spirits:     The unliving are visible for a short time. They may communicate (visually), but are not to be trusted.
+ * See Spirits:     The unliving are visible for a short time. They may communicate (visually), but are not to be trusted.
  * Night Vision:    Gain full night vision for 1 hour.
  * Putrefy:         Ruin (in some disgusting way) a pound of food or liquid.
  * Detect Undead:   Detects reanimated flesh/bones within 60 ft for up to 1min/lvl or until concentration ends.
