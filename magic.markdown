@@ -1,6 +1,5 @@
 
-Enchanting
-------------
+#####Enchanting
 
 Enchanting an item is generally done *for* a specific character.
 It's 'attuned' to that user - the enchantment borrows some of the character's maxHP
@@ -35,8 +34,7 @@ Any academy or abbey that supports a sizeable contingent of casters most likely 
 its income almost entirely from the sale of enchanting services.
 
 
-Mage Spells
--------------
+#####Mage Spells
 
 ###Level 0 (Cantrips)
 
@@ -92,8 +90,7 @@ Mage Spells
                   and reduces damage taken from them by 1 if the attack spread is less than 4.
 
 
-Cleric Spells
----------------
+#####Cleric Spells
 
 ###Level 0 (Orisons):
 
@@ -141,8 +138,7 @@ Cleric Spells
 * Restoration:      Subject gains 3d4 hp and 2d4 temp hp, and then 2 hp and 2 temp hp per round for clvl rounds
 * Tongues:          Speak and understand any language for clvl*10 minutes.
 
-Druid Spells
------------------
+#####Druid Spells
 
 ###Level 0:
 

@@ -1,5 +1,4 @@
-Tricks
-----------
+####Tricks
 
 This is a short list, that will grow as we invent them.
 
