@@ -1,4 +1,4 @@
-#####Warrior
+###Warrior
 
 * May use any armor, any shield, and any weapon.
 * +3 Athletics skill
@@ -6,7 +6,7 @@
 * Learns a trick every level, instead of just odd ones.
 * Can 'mark' a target that's within range of them (even outside of combat, though it'll have social implications). Has a -1 attack penalty on targets other than the marked one, but gets to take an attack of opportunity on the marked target if it moves away or engages another character. Also grants +1 AC against that target.
 
-#####Rogue
+###Rogue
 
 * Light armor only, light weapons only.
 * +4 Subterfuge skill
@@ -14,7 +14,7 @@
 * Reduced penalty for attacks attempted while moving.
 * Learns a trick every level, instead of just odd ones.
 
-#####Paladin
+###Paladin
 
 * Can use any armor, any shield, most one-handed weapons (prefers blunts).
 * +2 Athletics skill, +2 Social skill
@@ -23,12 +23,12 @@
 * Can use cleric spells like a cleric 3 levels lower. (At level 3, he gets one Rank 0 spell). The paladin gets no familiarity bonuses, and cannot empower or widen spells.
 * When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).
 
-#####Druid
+###Druid
 
 * Can use any non-metal armor and shield, and any weapon.
 * +2 Studies, +1 Subterfuge, +1 Social
 
-###Spirit Wolf:
+####Spirit Wolf:
 
   * Follows simple commands, can fight indepently. 
   * Uses the owner's magic attack bonus as his attack bonus, and does d4 + MNDmod damage with teeth (d8 + MNDmod on prone targets)
@@ -45,7 +45,7 @@
     |AC:   |10 + clvl + MNDmod + 2  |
 
 
-#####Mage
+###Mage
 
 * No armor, No shield, small light weapons only.
 * +4 Studies
@@ -53,7 +53,7 @@
 * +1 to Will against magic.
 * `+ceil(clvl / 5)` to magic attack bonus and magic damage rolls.
 
-#####Cleric
+###Cleric
 
 * Medium armor, light shields, light and blunt weapons only.
 * +2 Social, +2 Studies, +1 Will, +1 Fortitude
