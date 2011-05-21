@@ -1,5 +1,4 @@
-1.  Stats and Skills
----------------------
+##### Stats and Skills
 
 There are only three stats: Strength (STR), Dexterity (DEX), and Mind (MND). The modifier for each stat is `(stat - 10) / 2` (round toward zero) - these are referred to like 'STRmod' or 'DEXmod'
 
@@ -28,11 +27,10 @@ You can have more specific skills, like lockpicking, or dancing, or bartering, b
 * Elf:      +1 MND, +1 DEX, +1 Stud
 * Dwarf:    +2 STR, +2 HP
 * Halfling: +2 DEX, -1 STR, +1 Sub, +1 init
-* Half-Elf: +1 DEX or MND, +1 to a skill, +1 to a defense
+* Half-Elf: +1 DEX or MND, +1 to 2 skills, +1 to a defense
 
 
-2.  Combat
-------------------
+#####Combat
 
 Standard attacks compare `Attack_bonus + d20` against the targets AC (magic attacks use `Magic_bonus + d20 + caster_level`).
 The base attack bonus is STRmod for melee weapons, DEXmod for ranged weapons, and MNDmod for magic attacks. (Trained characters can use DEXmod for melee with light weapons if they prefer).
@@ -42,17 +40,15 @@ A natural 20 on a d20 is automatically a hit, and deals maximum damage. A nat20 
 Trained characters may wield two light weapons at a time, and attack with both. They take a -1 on the main hand weapon,
 and a -2 on the offhand weapon; the second attack during a turn has an additional -2 penalty if the first attack missed.
 
-Temporary hp are health point buffers - if you have 3 temp hp, and take a hit for 5, you lose the temporaries, and only ake 2 damage. Temporary hp do not stack; if you gain 3 thp and then gain 5 thp, you have 5.
+Temporary hp are health point buffers - if you have 3 temp hp, and take a hit for 5, you lose the temporaries, and only take 2 damage. Temporary hp do not stack; if you gain 3 thp and then gain 5 thp, you have 5.
 
-3.  Tricks
-----------------
+#####Tricks
 
 Combat is descriptive rather than tactical. Trying to do something fancy is reasonable - the DM will come up with modifiers to be applied (and will explain them before you commit). Examples: "Run past X, take a swing while running", "Cast magic missile past an ally", "Run at someone full-tilt, and smash into them shield-first."
 
 These are called 'tricks' - write them down when you commit them, so we'll know the modifiers later. They may involve a skill check to perform an impressive stunt, or allowing an attack to hit you (reducing your ac to just Armor-mod) in order to land a bigger attack. If you use a trick a few times, it may be available to 'learn' when you next have the opportunity (see 'Leveling up'); learning a trick reduces its penalty or improves its outcome, because you are practiced at it.
 
-4.  Magic
----------------
+#####Magic
 
 Spells cost HP to cast, and that HP can't be restored except by resting - maxHP can't go below 1; after he's reduced to 1 hp,
 a caster spends MND or STR directly; if he spends those down to zero, *bad things* happen to him. Each night of rest will only 
@@ -73,8 +69,7 @@ A caster can learn spells up to `ceil(clvl / 2)`. On level up, he gains/learns o
 
 A friendly that is in physical contact with the caster can voluntarily spend their own HP instead of the caster's. An unwilling target can have their HP drained through ritual sacrifice; the vial of blood produced is worth the STR of the victim, and gradually loses it's power (loses one STR per day). Many casters prey on the helpless for this purpose.
 
-5.  Leveling Up
------------------
+#####Leveling Up
 
 Levels are gained at the DM's discretion, generally upon completing some major arc of story (beating the big bad, returning the blessed hand of Edur to the temple, etc).
 

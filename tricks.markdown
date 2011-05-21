@@ -54,4 +54,12 @@ This is a short list, that will grow as we invent them.
 * Take one less penalty.
   
 
+###Escape Artist
+* Run in, attack, run out.
+* Missing with a spread of at least 5 grants the target a counterattack.
+* If the target is not aware of the attacker, spread must be at least 7.
 
+**Practiced:**
+
+* Required spread increases by 1
+* If performed from behind, +1 to hit.
