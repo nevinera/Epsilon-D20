@@ -80,7 +80,6 @@ its income almost entirely from the sale of enchanting services.
 
 ###Level 4:
 
-* Animate Dead:     Creates clvl*2 HD of undead skeletons or zombies lasting clvl hours. Requires corpses.
 * Arcane Eye:       Invisible floating eye. Moves 30 ft/round, persists for clvl minutes.
 * Black Tentacles:  Tentacles grapple all within 20 ft radius of caster for clvl rounds.
 * Dimension Door:   Teleports you a short distance (the distance you can walk in a round).
@@ -193,3 +192,55 @@ its income almost entirely from the sale of enchanting services.
 
 
                   
+##Necromancer Spells
+
+### Level 0:
+
+* See Spirits:     The unliving are visible for a short time. They may communicate (visually), but are not to be trusted.
+ * Night Vision:    Gain full night vision for 1 hour.
+ * Putrefy:         Ruin (in some disgusting way) a pound of food or liquid.
+ * Detect Undead:   Detects reanimated flesh/bones within 60 ft for up to 1min/lvl or until concentration ends.
+ * Create Darkness: Dims the lights in a frightening way.
+ * Weaken:          Target gets -1 to all attacks, reflex (and AC), and movement rate.
+
+### Level 1:
+ 
+ * Preserve Self:   Caster gains 6 thp.
+ * Slow Healing:    Any health returned to the target is cut in half (round down) for 10 minutes.
+ * Commune:         Caster is able to communicate clearly with any dead (or inhabited undead) nearby for a few minutes.
+ * False Death:     Caster appears to be dead to all non-magical inspections. He is aware, and may rise at any time (takes ~90s).
+ * Fear:            Target cowers or runs, saving each round with +1 for every 10ft between he and the caster. Circumstantial bonuses may often apply
+ * Slow All:        All creatures within 20 feet of the caster move at half speed and take -2 on Reflex (and AC), allies included.
+
+### Level 2:
+
+ * Animate Corpse:  The targeted corpse (medium or smaller) rises and is controlled by caster for 3 rounds, taking some attention to direct.
+ * Vampiric Touch:  Touch deals `d6(ceil(clvl/2))` unholy damage, caster gains damage as thp lasting up to 1 hour.
+ * Control Undead:  Target undead or spirit creature is controlled for clvl rounds. If it was already controlled, controller saves each round to resume control.
+ * Stop Healing:    All healing done to the target is reduced to zero for 10 minutes. Temporary hp granted are cut in half.
+ * Pestilence:      Any desired targets within 20 ft of the caster gain Blood Fever, dealing d4 damage every turn and reducing Reflex (and AC) by one. Fort save each turn, with DC 20.
+ * Corpsify:        Cooperating target looks dead to all mundane inspection, and undead to most magical inspections. May still act, but each time target takes damage, the one dealing it rolls Will against caster's Subt to see through the deception.
+ * Decay:           Target ~3lb object or substance ages as if ill-kept for hundreds of years. Wood rots through, metal rusts, rock crumbles.
+
+### Level 3:
+
+ * Warp Flesh:      Target's flesh is distorted (save: fort vs magic), doing d4(clvl) damage, and giving it -3 to attacks (and usually making it very clumsy and *VERY* ugly).
+ * Phantom:         Summons a minion that cannot interact directly with living beings. When directed at a target, it takes a visual form intended to disturb or frighten that target. Lasts one hour.
+ * Horrors:         Must successfully touch the targets head. Target is inflicted with full view of the otherworld and the dead residing therein. Unable to function, and will most likely do anything to avoid repeating the experience. Save Will vs Magic on cast, and again every round after the caster loses contact.
+ * Prevent Death:   Target is unable to die. Continuing cost of `ceil(tlvl/2)` hp per round of activity, or 1 hp per minute of inactivity. Requires concentration.
+ * Animate Monster: Targeted corpse of great size rises and is controlled by the caster for two rounds, taking full attention to direct.
+ * Preserve All:    All willing allies within 20 yards lose tlvl health and gain `3*tlvl` thp until the end of the fight.
+ * Interrogate:     Target corpse partially animates for clvl minutes. It must answer all questions to the best of its ability - anything its owner would resist strongly means a save (will vs will); success ends the spell and destroys the corpse's mind.
+
+### Level 4:
+
+ * Grasping Hands:  Skeletal hands reach from the ground, holding the target in place and scaring the bejeezus out of them. Lasts 3 rounds.
+ * Total Darkness:  The air within 50 feet of the caster becomes all but impenetrable to light - light sources can themselves be seen, but nothing is illuminated. The caster can see clearly.
+ * Bean Sidhe:      Produces a sound that can only be described as 'unpleasant'. All creatures within hearing range must make a will save (DC 18) every round or spend the round clawing at their ears and running away. It affects the caster as well, so I recommend earplugs.
+ * Corpse Shield:   Animates a corpse for several hours - not controllable, defends caster with full attention.
+ * Aura of Decay:   All enemies within 20 feet take 2d4 damage every round (save Fort vs Magic). Lasts until end of combat.
+ * Life Draining:   A bladed weapon so enchanted does an extra d4 unholy damage on hit, and gives it to the bearer as thp.
+
+
+
+
