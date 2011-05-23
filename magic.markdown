@@ -204,7 +204,7 @@ its income almost entirely from the sale of enchanting services.
 
 ### Level 1:
  
- * Preserve Self:   Caster gains 6 thp.
+ * Preserve Self:   Caster gains `2 + 2*clvl` thp.
  * Slow Healing:    All magical healing received by the target is cut in half (round down). Natural healing is reduced to zero. Spell lasts until it has prevented healing equal to one-fourth the caster's max HP.
  * Commune:         Caster is able to communicate clearly with any dead (or inhabited undead) nearby for a few minutes.
  * False Death:     Caster appears to be dead to all non-magical inspections. He is aware, and may rise at any time (takes ~90s).
