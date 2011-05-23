@@ -212,6 +212,7 @@ its income almost entirely from the sale of enchanting services.
  * Fear:            Target cowers or runs, saving each round with +1 for every 10ft between he and the caster. Circumstantial bonuses may often apply
  * Slow All:        All creatures within 20 feet of the caster move at half speed and take -2 on Reflex (and AC), allies included.
  * Last Image:      Caster sees the image last viewed by the subject. Requires targets' eyeballs, 30 seconds of concentration, and has DC `15 + tlvl - clvl`.
+ * Death Mask:      Target corpse's features are changed somewhat. Attempting to imitate a real target allows a save vs Subt on the part of the deceived (with bonuses for degree of familiarity).
 
 ### Level 2:
 
