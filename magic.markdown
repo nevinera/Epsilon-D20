@@ -210,6 +210,7 @@ its income almost entirely from the sale of enchanting services.
  * False Death:     Caster appears to be dead to all non-magical inspections. He is aware, and may rise at any time (takes ~90s).
  * Fear:            Target cowers or runs, saving each round with +1 for every 10ft between he and the caster. Circumstantial bonuses may often apply
  * Slow All:        All creatures within 20 feet of the caster move at half speed and take -2 on Reflex (and AC), allies included.
+ * Last Image:      Caster sees the image last viewed by the subject. Requires targets' eyeballs, 30 seconds of concentration, and has DC `15 + tlvl - clvl`.
 
 ### Level 2:
 
