@@ -201,6 +201,7 @@ its income almost entirely from the sale of enchanting services.
  * Detect Undead:   Detects reanimated flesh/bones within 60 ft for up to 1min/lvl or until concentration ends.
  * Create Darkness: Dims the lights in a frightening way.
  * Weaken:          Target gets -1 to all attacks, reflex (and AC), and movement rate.
+ * Feast of Worms:  Allows the caster to live off of the earth, consuming and getting sustenance from dirt, worms, bugs, and other filth as easily as normal food.
 
 ### Level 1:
  
