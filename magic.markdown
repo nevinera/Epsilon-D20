@@ -1,4 +1,3 @@
-
 ##Enchanting
 
 Enchanting an item is generally done *for* a specific character.
@@ -206,7 +205,7 @@ its income almost entirely from the sale of enchanting services.
 ### Level 1:
  
  * Preserve Self:   Caster gains 6 thp.
- * Slow Healing:    Any health returned to the target is cut in half (round down) for 10 minutes.
+ * Slow Healing:    Slow Healing - All magical healing received by the target is cut in half (round down). Natural healing is reduced to zero. Spell lasts until it has prevented healing equal to one-fourth the caster's max HP.
  * Commune:         Caster is able to communicate clearly with any dead (or inhabited undead) nearby for a few minutes.
  * False Death:     Caster appears to be dead to all non-magical inspections. He is aware, and may rise at any time (takes ~90s).
  * Fear:            Target cowers or runs, saving each round with +1 for every 10ft between he and the caster. Circumstantial bonuses may often apply
