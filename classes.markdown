@@ -20,7 +20,7 @@
 * +3 Athletics, +1 Knowledge
 * Aimed Shot: Spend the entire round aiming and shooting (no motion, etc). +1 to hit, + `floor(Ath/2)` damage if the spread is greater than one.
 * Extra shots are granted on a spread of 4 instead of 5.
-* Can use druid spells like a druid 3 levels lower (At level 3, receive one Rank 0 spell). Rangers get no familiarity bonuses, and cannot apply spell modifiers to their spells.
+* Can use druid spells like a druid half his level (round down). Rangers get no familiarity bonuses, and cannot apply spell modifiers to their spells.
 
 
 ###Paladin
@@ -29,7 +29,7 @@
 * +2 Athletics skill, +2 Social skill
 * +1 to Will (MND defense). +1 to Fortitude as well, starting at level 5.
 * Other members of the party are 'defended' by the paladin - opponents adjacent to the paladin get -1 to attacks against party members (other than the paladin), and if they successfully hit a member of the paladin's party, the paladin may take an opportunity attack against them (limit one per round).
-* Can use cleric spells like a cleric 3 levels lower. (At level 3, he gets one Rank 0 spell). The paladin gets no familiarity bonuses, and cannot apply spell modifiers to their spells.
+* Can use cleric spells like a cleric half his level (round down). The paladin gets no familiarity bonuses, and cannot apply spell modifiers to their spells.
 * When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).
 
 ###Druid
