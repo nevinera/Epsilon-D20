@@ -1,0 +1,96 @@
+<h3>Warrior</h3>
+
+<ul>
+<li>May use any armor, any shield, and any weapon.</li>
+<li>+3 Athletics skill</li>
+<li><code>+ ceil(clvl / 5)</code> to all attack and damage rolls.</li>
+<li>Learns a trick every level, instead of just odd ones.</li>
+<li>Can 'mark' a target that's within range of them (even outside of combat, though it'll have social implications). Has a -1 attack penalty on targets other than the marked one, but gets to take an attack of opportunity on the marked target if it moves away or engages another character. Also grants +1 AC against that target.</li>
+</ul>
+
+<h3>Rogue</h3>
+
+<ul>
+<li>Light armor only, light weapons only.</li>
+<li>+4 Subterfuge skill</li>
+<li>When attacking an enemy that is not aware of them (sneaking up is usually DEX+Sub check), can add <code>floor(Subt/2)</code> to the damage roll.</li>
+<li>Reduced penalty for attacks attempted while moving.</li>
+<li>No penalty for dual-wielding (missing with one weapon still penalizes second attack).</li>
+<li>Learns a trick every level, instead of just odd ones.</li>
+</ul>
+
+<h3>Ranger</h3>
+
+<ul>
+<li>Light armor only, light weapons only.</li>
+<li>+3 Athletics, +1 Knowledge</li>
+<li>Aimed Shot: Spend the entire round aiming and shooting (no motion, etc). +1 to hit, + <code>floor(Ath/2)</code> damage if the spread is greater than one.</li>
+<li>Extra shots are granted on a spread of 4 instead of 5.</li>
+<li>Can use druid spells like a druid half his level (round down). Rangers get no familiarity bonuses, and cannot apply spell modifiers to their spells.</li>
+</ul>
+
+<h3>Paladin</h3>
+
+<ul>
+<li>Can use any armor, any shield, most one-handed weapons (prefers blunts).</li>
+<li>+2 Athletics skill, +2 Social skill</li>
+<li>+1 to Will (MND defense). +1 to Fortitude as well, starting at level 5.</li>
+<li>Other members of the party are 'defended' by the paladin - opponents adjacent to the paladin get -1 to attacks against party members (other than the paladin), and if they successfully hit a member of the paladin's party, the paladin may take an opportunity attack against them (limit one per round).</li>
+<li>Can use cleric spells like a cleric half his level (round down). The paladin gets no familiarity bonuses, and cannot apply spell modifiers to their spells.</li>
+<li>When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 1 (but not to zero).</li>
+</ul>
+
+<h3>Druid</h3>
+
+<ul>
+<li>Can use any non-metal armor and shield, and any weapon.</li>
+<li>+2 Studies, +1 Subterfuge, +1 Social</li>
+</ul>
+
+<h4>Spirit Wolf:</h4>
+
+<ul>
+<li>Follows simple commands, can fight indepently. </li>
+<li>Uses the owner's magic attack bonus as his attack bonus, and does d4 + MNDmod damage with teeth (d8 + MNDmod on prone targets)</li>
+<li>Selects targets based on what level of threat it considers them against its master (unless directed otherwise).</li>
+<li>Resummoning takes ~ 5min, and costs 2hp.</li>
+<li><p>Faintly ethereal, VERY good at remaining hidden in natural settings.</p>
+
+<p>|STR:  |Master MND - 4          |
+|DEX:  |Master MND - 2          | <br />
+|MND:  |4                       |
+|Subt: |2 + floor(clvl/3)       |
+|Athl: |1 + floor(clvl/3)       |
+|HP:   |6 + clvl*d4             |
+|AC:   |10 + clvl + MNDmod + 2  |</p></li>
+</ul>
+
+<h3>Mage</h3>
+
+<ul>
+<li>No armor, No shield, small light weapons only.</li>
+<li>+4 Studies</li>
+<li>Mages choose a spell to be familiar with for <em>every</em> level gained instead of only one per rank.  (So they end up with two familiar spells per rank)</li>
+<li>+1 to Will against magic.</li>
+<li><code>+ceil(clvl / 5)</code> to magic attack bonus and magic damage rolls.</li>
+</ul>
+
+<h3>Cleric</h3>
+
+<ul>
+<li>Medium armor, light shields, light and blunt weapons only.</li>
+<li>+2 Social, +2 Studies, +1 Will, +1 Fortitude</li>
+<li>Can attempt to "turn" undead - roll <code>MND + Stud + clvl</code> against <code>Will + mlvl</code>. On success, the target flees for 2+d4 turns. On success with spread > 4, the target de-animates, with various effects. Costs 1hp, can target up to clvl different targets at once.</li>
+<li>When granted sufficient time, can meditate/pray for ~ 10 minutes, and reduce the cost of a spell by 2 (but not to zero).</li>
+</ul>
+
+<h3>Necromancer</h3>
+
+<ul>
+<li>No armor, No shield, small light weapons and staves only.</li>
+<li>+4 Studies, +1 Subterfuge, -1 Social</li>
+<li>Through ritual (~5m per hp), may draw magic out of a person (including himself), storing it as blood in containers. This blood may be spend in leiu of his own life, but only retains its power for one day. The amount he can keep active is equal to half his own maximum HP.</li>
+<li>No familiarity bonuses to casting costs.</li>
+<li>When granted sufficient time, can meditate for ~10 minutes to reduce the cost of a spell by half, rounding down.</li>
+<li>Allowed to learn mage spells as well, though only spells below the highest rank he can cast.</li>
+</ul>

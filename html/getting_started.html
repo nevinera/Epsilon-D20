@@ -1,0 +1,70 @@
+<h3>Making A Character</h3>
+
+<h4>Pick stats</h4>
+
+<ul>
+<li>STR, DEX, MND. </li>
+<li>Any three stats between 8 and 18 summing to 40 will do. </li>
+<li>Check your racial stat modifiers, and apply them.</li>
+<li><code>mod(stat) = (stat - 10) / 2</code></li>
+</ul>
+
+<h4>Skills</h4>
+
+<ul>
+<li>You start with zero of each skill (Ath, Sub, Std, Soc)</li>
+<li>Check your class modifiers and your racial modifiers for these.</li>
+</ul>
+
+<h4>Attack Bonuses</h4>
+
+<ul>
+<li><code>mod(STR)</code> for melee weapons</li>
+<li><code>mod(DEX)</code> for ranged weapons</li>
+<li><code>mod(MND)</code> for magic attacks.</li>
+<li>Trained characters can use <code>mod(DEX)</code> for light melee weapons or staves if they prefer</li>
+<li>Check for class bonuses</li>
+</ul>
+
+<h4>Defenses</h4>
+
+<ul>
+<li>Fort, Refl, Will</li>
+<li>Each is <code>1 + mod(relevant_stat)</code></li>
+<li>Check for racial and class bonuses.</li>
+</ul>
+
+<h5>Armor</h5>
+
+<ul>
+<li>AC: <code>10 + Reflex + Gear</code></li>
+<li><p>Armor Reduction Range: <code>floor(AC_from_gear / 2)</code></p>
+
+<h5>Magic Class</h5></li>
+<li><p><code>10 + Will + clvl</code></p>
+
+<h5>Health Points</h5></li>
+<li><p><code>STR + 2 + d4</code></p></li>
+<li><p>Check racial modifiers (Dwarves)</p>
+
+<h5>Initiative Modifier</h5></li>
+<li><p>`mod(DEX) is the base</p></li>
+<li>Heavy armor reduces it by one</li>
+<li>Check racial modifiers (Halflings)</li>
+</ul>
+
+<h4>Spells</h4>
+
+<ul>
+<li>If your character can use spells, pick the starting spells.</li>
+<li>Start with one rank 1 spell and two rank 0 spells.</li>
+</ul>
+
+<h4>Equipment</h4>
+
+<ul>
+<li>Everyone has food, water, basic supplies (and they don't run out under normal circumstances)</li>
+<li>if you want anything unusual, ask; things that would not be expensive are fine.</li>
+<li>Armor - This is mostly dictated by class. You can wear what you want, though plate is beyond the means of a level 1.</li>
+<li>Weaponry - Pick what you'd like your character to use. If it's expensive, it will be of poor quality.</li>
+</ul>
