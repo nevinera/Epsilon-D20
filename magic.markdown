@@ -70,7 +70,7 @@ its income almost entirely from the sale of enchanting services.
 * Clairaudience:    Hear at a distance for clvl minutes. Can target any location you have been to or person you have met.
 * Clairvoyance:     See at a distance for clvl minutes. Can target any location you have been to, unless it has changed significantly (walls missing, etc).
 * Dispel Magic:     Cancel a magical spell or effect. Break an attunement or charm. Roll DEXmod+Study to break a fast-moving spell (fireball, eg).
-* Firestorm:        (clvl)d6 damage to a 20ft radius. 1d4 damage per round to all affected, save ends.
+* Firestorm:        (clvl)d6 damage to a 20ft radius. 1d4 damage per round to all affected for `2 + d4` rounds.
 * Fly:              Subject flies at speed of 60ft/round (fast run) for clvl minutes.
 * Lightning Bolt:   (clvl)d6 damage to a target, half damage to *any* creature in conducting contact with it.
 * Vampiric Touch:   Touch deals ceil(clvl/2)d6 damage, caster gains damage as temporary hp lasting 1 hour.
