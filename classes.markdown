@@ -22,6 +22,7 @@
 * Aimed Shot: Spend the entire round aiming and shooting (no motion, etc). +1 to hit, + `floor(Ath/2)` damage if the spread is greater than one.
 * Extra shots are granted on a spread of 4 instead of 5.
 * Can use druid spells like a druid half his level (round down). Rangers get no familiarity bonuses, and cannot apply spell modifiers to their spells.
+* At level 6, gain 'woodland stride', able to walk through very difficult natural terrain at half speed.
 
 
 ###Paladin
@@ -37,6 +38,7 @@
 
 * Can use any non-metal armor and shield, and any weapon.
 * +2 Studies, +1 Subterfuge, +1 Social
+* At 4th level, gain 'woodland stride', able to walk through very difficult natural terrain at half speed.
 
 ####Spirit Wolf:
 
