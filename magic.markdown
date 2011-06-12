@@ -50,7 +50,7 @@ its income almost entirely from the sale of enchanting services.
 
 * Feather Fall:     Objects or creatures fall slowly for 1 round/lvl or until landing.
 * Floating Disc:    Creates a 3-ft diameter horizontal disk that holds 100 lb/level. Lasts for 1 hr/level.
-* Mage Armor:       Gives subject +4 armor bonus for 1 hr/level
+* Mage Armor:       Gives subject +4 armor bonus for 1 minute/level
 * Magic Missile:    1d4 + 1 damage, fires floor((clvl + 1)/2) missiles - may be at multiple targets, in the same direction. Max 5 missiles.
 * Sleep:            Puts (clvl + 3) HD of creatures into magical slumber for 1 min/lvl
 * Shocking Grasp:   Touch delivers (clvl)d6 electricity damage (max 5d6)
